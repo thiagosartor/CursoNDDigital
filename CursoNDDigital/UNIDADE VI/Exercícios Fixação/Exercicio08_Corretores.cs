@@ -8,7 +8,7 @@ namespace UNIDADE_VI.Exercícios_Fixação
 {
     class Exercicio08_Corretores
     {
-        static void Main() 
+        static void Main8() 
         {
             string[] nome = new string[3];
             double[] venda = new double[3];

@@ -8,7 +8,7 @@ namespace UNIDADE_IV.Exercícios_Fixação
 {
     class Exe7
     {
-        public static void Main (string[] args)
+        public static void Main7(string[] args)
         {
             int salario_minimo = 750;
             double comissao = 0.05;

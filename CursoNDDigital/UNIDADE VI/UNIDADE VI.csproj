@@ -49,7 +49,7 @@
     <Compile Include="Exercícios Fixação\Execicios02_SomarVetores.cs" />
     <Compile Include="Exercícios Fixação\Execicios04_Temperatura.cs" />
     <Compile Include="Exercícios Fixação\Exercicio08_Corretores.cs" />
-    <Compile Include="Exercícios Fixação\Exercicio09_VetorMaior.cs" />
+    <Compile Include="Exercícios Fixação\Exercicio09_VelorMaior.cs" />
     <Compile Include="Exercícios Fixação\Exercicio10_Loja.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
