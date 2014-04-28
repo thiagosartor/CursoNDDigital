@@ -48,10 +48,14 @@
     <Compile Include="Exercícios Fixação\Execicios07_Carros.cs" />
     <Compile Include="Exercícios Fixação\Execicios02_SomarVetores.cs" />
     <Compile Include="Exercícios Fixação\Execicios04_Temperatura.cs" />
+    <Compile Include="Exercícios Fixação\Exercicio08_Corretores.cs" />
+    <Compile Include="Exercícios Fixação\Exercicio09_VetorMaior.cs" />
+    <Compile Include="Exercícios Fixação\Exercicio10_Loja.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Exercícios Fixação\Exercícios - Unidade VI.docx" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Exercícios Complementares\" />

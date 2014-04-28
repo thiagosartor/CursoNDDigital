@@ -17,7 +17,6 @@ namespace UNIDADE_IV.Exercícios_Fixação
             double valor_ganho;
             int quant_carros_vendidos;
             
-
             Console.WriteLine("Digite o seu nome: ");
             nome = Console.ReadLine();
             Console.WriteLine("Quantos carros "+nome+" vendeu?");
