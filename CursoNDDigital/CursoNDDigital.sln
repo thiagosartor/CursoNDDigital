@@ -17,6 +17,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNIDADE VI", "UNIDADE VI\UN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedindoAFebreIII", "MedindoAFebreIII\MedindoAFebreIII.csproj", "{EC7F9632-6AF0-45D4-92E2-0C8A34743543}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Material", "3. Material", "{B9660177-EF05-49D4-81D2-FBFAE8C060D1}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\SkyDrive\Documentos\Curso NDD\Módulo I\_pptx\Módulo I - Unidade I - Apresentação.docx.pptx = ..\..\..\..\SkyDrive\Documentos\Curso NDD\Módulo I\_pptx\Módulo I - Unidade I - Apresentação.docx.pptx
+		..\..\..\..\SkyDrive\Documentos\Curso NDD\Módulo I\_pptx\Módulo I - Unidade II - Apresentação.docx.pptx = ..\..\..\..\SkyDrive\Documentos\Curso NDD\Módulo I\_pptx\Módulo I - Unidade II - Apresentação.docx.pptx
+		..\..\..\..\SkyDrive\Documentos\Curso NDD\Módulo I\_pptx\Módulo I - Unidade III - Apresentação.docx.pptx = ..\..\..\..\SkyDrive\Documentos\Curso NDD\Módulo I\_pptx\Módulo I - Unidade III - Apresentação.docx.pptx
+		..\..\..\..\SkyDrive\Documentos\Curso NDD\Módulo I\_pptx\Módulo I - Unidade IV - Apresentação.docx.pptx = ..\..\..\..\SkyDrive\Documentos\Curso NDD\Módulo I\_pptx\Módulo I - Unidade IV - Apresentação.docx.pptx
+		..\..\..\..\SkyDrive\Documentos\Curso NDD\Módulo I\_pptx\Módulo I - Unidade V - Apresentação.pptx = ..\..\..\..\SkyDrive\Documentos\Curso NDD\Módulo I\_pptx\Módulo I - Unidade V - Apresentação.pptx
+		..\..\..\..\SkyDrive\Documentos\Curso NDD\Módulo I\_pptx\Módulo I - Unidade VI - Apresentação.pptx = ..\..\..\..\SkyDrive\Documentos\Curso NDD\Módulo I\_pptx\Módulo I - Unidade VI - Apresentação.pptx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
