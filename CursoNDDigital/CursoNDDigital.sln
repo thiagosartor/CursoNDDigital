@@ -18,14 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedindoAFebreIII", "MedindoAFebreIII\MedindoAFebreIII.csproj", "{EC7F9632-6AF0-45D4-92E2-0C8A34743543}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Material", "3. Material", "{B9660177-EF05-49D4-81D2-FBFAE8C060D1}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\SkyDrive\Documentos\Curso NDD\Módulo I\_pptx\Módulo I - Unidade I - Apresentação.docx.pptx = ..\..\..\..\SkyDrive\Documentos\Curso NDD\Módulo I\_pptx\Módulo I - Unidade I - Apresentação.docx.pptx
-		..\..\..\..\SkyDrive\Documentos\Curso NDD\Módulo I\_pptx\Módulo I - Unidade II - Apresentação.docx.pptx = ..\..\..\..\SkyDrive\Documentos\Curso NDD\Módulo I\_pptx\Módulo I - Unidade II - Apresentação.docx.pptx
-		..\..\..\..\SkyDrive\Documentos\Curso NDD\Módulo I\_pptx\Módulo I - Unidade III - Apresentação.docx.pptx = ..\..\..\..\SkyDrive\Documentos\Curso NDD\Módulo I\_pptx\Módulo I - Unidade III - Apresentação.docx.pptx
-		..\..\..\..\SkyDrive\Documentos\Curso NDD\Módulo I\_pptx\Módulo I - Unidade IV - Apresentação.docx.pptx = ..\..\..\..\SkyDrive\Documentos\Curso NDD\Módulo I\_pptx\Módulo I - Unidade IV - Apresentação.docx.pptx
-		..\..\..\..\SkyDrive\Documentos\Curso NDD\Módulo I\_pptx\Módulo I - Unidade V - Apresentação.pptx = ..\..\..\..\SkyDrive\Documentos\Curso NDD\Módulo I\_pptx\Módulo I - Unidade V - Apresentação.pptx
-		..\..\..\..\SkyDrive\Documentos\Curso NDD\Módulo I\_pptx\Módulo I - Unidade VI - Apresentação.pptx = ..\..\..\..\SkyDrive\Documentos\Curso NDD\Módulo I\_pptx\Módulo I - Unidade VI - Apresentação.pptx
-	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slides", "Slides\Slides.csproj", "{7E7F665F-BCB5-40E8-851C-66442099A287}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +47,10 @@ Global
 		{EC7F9632-6AF0-45D4-92E2-0C8A34743543}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC7F9632-6AF0-45D4-92E2-0C8A34743543}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC7F9632-6AF0-45D4-92E2-0C8A34743543}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E7F665F-BCB5-40E8-851C-66442099A287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E7F665F-BCB5-40E8-851C-66442099A287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E7F665F-BCB5-40E8-851C-66442099A287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E7F665F-BCB5-40E8-851C-66442099A287}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,5 +61,6 @@ Global
 		{7BF395E9-AE58-4F87-99A9-2162FB0C9F66} = {B48A3D23-C243-4FFD-80E5-BB722E8257B4}
 		{E1C8F1E3-3A68-44EC-9698-5DBA95DC5D83} = {B48A3D23-C243-4FFD-80E5-BB722E8257B4}
 		{EC7F9632-6AF0-45D4-92E2-0C8A34743543} = {74A71C59-E239-4C36-A7D8-A1824D96672C}
+		{7E7F665F-BCB5-40E8-851C-66442099A287} = {B9660177-EF05-49D4-81D2-FBFAE8C060D1}
 	EndGlobalSection
 EndGlobal
