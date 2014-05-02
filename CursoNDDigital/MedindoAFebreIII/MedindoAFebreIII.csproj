@@ -41,21 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exercícios Fixação\Execicio01_Numeros.cs" />
-    <Compile Include="Exercícios Fixação\Execicio03_NascimentoExtenso.cs" />
-    <Compile Include="Exercícios Fixação\Execicio05_AnosBissextos.cs" />
-    <Compile Include="Exercícios Fixação\Execicio07_Prestacao.cs" />
-    <Compile Include="Exercícios Fixação\Execicio08_Carros.cs" />
-    <Compile Include="Exercícios Fixação\Execicio02_SomarVetores.cs" />
-    <Compile Include="Exercícios Fixação\Execicio04_Temperatura.cs" />
+    <Compile Include="MedindoAFebre\07_Cachorros.cs" />
+    <Compile Include="MedindoAFebre\08_Frase.cs" />
+    <Compile Include="MedindoAFebre\09_Espacos.cs" />
+    <Compile Include="MedindoAFebre\10_Datas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Exercícios Complementares\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

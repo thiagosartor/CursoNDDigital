@@ -4,15 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7E7F665F-BCB5-40E8-851C-66442099A287}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{4B96EBC4-366E-4B37-9A55-5A120187D25C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Slides</RootNamespace>
-    <AssemblyName>Slides</AssemblyName>
+    <RootNamespace>UNIDADE_VII</RootNamespace>
+    <AssemblyName>UNIDADE VII</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +23,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -42,13 +44,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Unidades\Módulo I - Unidade I - Apresentação.docx.pptx" />
-    <None Include="Unidades\Módulo I - Unidade II - Apresentação.docx.pptx" />
-    <None Include="Unidades\Módulo I - Unidade III - Apresentação.docx.pptx" />
-    <None Include="Unidades\Módulo I - Unidade IV - Apresentação.docx.pptx" />
-    <None Include="Unidades\Módulo I - Unidade V - Apresentação.pptx" />
-    <None Include="Unidades\Módulo I - Unidade VI - Apresentação.pptx" />
-    <None Include="Unidades\Módulo I - Unidade VII - Apresentação Continua.pptx" />
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
