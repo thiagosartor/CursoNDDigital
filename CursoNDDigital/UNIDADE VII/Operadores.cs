@@ -45,7 +45,7 @@ namespace UNIDADE_VI
             Console.ReadKey();
         }
 
-        public static void Main()
+        public static void hasuhas()
         {
 
         }

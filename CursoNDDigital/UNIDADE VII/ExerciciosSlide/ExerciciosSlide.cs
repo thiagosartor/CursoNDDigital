@@ -1,4 +1,6 @@
-﻿namespace UNIDADE_VII.ExerciciosSlide
+﻿using System;
+
+namespace UNIDADE_VII.ExerciciosSlide
 {
     public class ExerciciosSlide
     {
@@ -52,8 +54,8 @@
 
             Console.ReadKey();
         }
-         
-        public static void Exercicio5() //Operadores de atribuição  
+
+        public static void Exercicio5() //Operadores de atribuição
         {
             int valor = 10;
             valor += 1;
@@ -83,17 +85,30 @@
             bool j = false;
             j = (i == 6 && i != 7); // E
             j = (i <= 10 || i >= 5); // OU
-            j(i == 7 ^ i <= 10);   // XOR
+            j = (i == 7 ^ i <= 10);   // XOR
         }
 
-        public static void Exercicio8()
+        public static void Exercicio8() //Operadores ternário
         {
+            Random gerador = new Random();
+            double nota = gerador.NextDouble() * 100;
+            string resultado = nota >= 0.5 ? "Aprovado" : "Reprovado";
         }
-        public static void Exercicio9()
+
+        public static void Exercicio9() //Operador de negação
         {
+            Console.WriteLine(!(1 > 2));
+            Console.ReadKey();
         }
-        public static void Exercicio10()
+
+        public static void Exercicio10() //Operador de incremento e decremento pós e pré
         {
+            int i = 10;
+            int t = ++i + i--;
+            int c = i++ + --i;
+            Console.WriteLine(t);
+            Console.WriteLine(t);
+            Console.ReadKey();
         }
     }
 }
