@@ -6,6 +6,7 @@ namespace UNIDADE_VII.ExerciciosSlide
     {
         public static void Main()
         {
+
             Exercicio2();
             Exercicio3();
             Exercicio4();
