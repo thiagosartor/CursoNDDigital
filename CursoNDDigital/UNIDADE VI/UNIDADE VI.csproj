@@ -41,7 +41,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Operadores.cs" />
     <Compile Include="Exercícios Fixação\Execicios01_Numeros.cs" />
     <Compile Include="Exercícios Fixação\Execicios03_NascimentoExtenso.cs" />
     <Compile Include="Exercícios Fixação\Execicios05_AnosBissextos.cs" />
