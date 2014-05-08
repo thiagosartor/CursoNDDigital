@@ -8,7 +8,7 @@ namespace UNIDADE_VI.Exercícios_Fixação
 {
     class Exercicio10_Loja
     {
-        static void Main10()
+        static void Main()
         {
             string[] nomes = new string[4];
             double[] precos = new double[4];

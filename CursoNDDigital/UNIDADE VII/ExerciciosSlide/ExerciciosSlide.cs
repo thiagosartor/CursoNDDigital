@@ -4,7 +4,7 @@ namespace UNIDADE_VII.ExerciciosSlide
 {
     public class ExerciciosSlide
     {
-        public static void Main()
+        public static void Main1()
         {
             //Exercicio2();
             //Exercicio3();
