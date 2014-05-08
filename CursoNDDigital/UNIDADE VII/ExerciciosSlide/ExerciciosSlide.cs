@@ -6,16 +6,16 @@ namespace UNIDADE_VII.ExerciciosSlide
     {
         public static void Main()
         {
-
-            Exercicio2();
-            Exercicio3();
-            Exercicio4();
-            Exercicio5();
-            Exercicio6();
-            Exercicio7();
-            Exercicio8();
-            Exercicio9();
-            Exercicio10();
+            //Exercicio2();
+            //Exercicio3();
+            //Exercicio4();
+            //Exercicio5();
+            //Exercicio6();
+            //Exercicio7();
+            //Exercicio8();
+            //Exercicio9();
+            //Exercicio10();
+            Exercicio11();
         }
 
         public static void Exercicio2()//Operadores Aritméticos.
@@ -110,6 +110,105 @@ namespace UNIDADE_VII.ExerciciosSlide
             Console.WriteLine(t);
             Console.WriteLine(t);
             Console.ReadKey();
+        }
+
+        public static void Exercicio11()
+        {
+            //Descobrir a quantidade de caracteres de uma string.
+            //string s = "Nome da Pessoa";
+
+            //int length = s.Length;
+
+            //Console.WriteLine(length);
+
+            ////Recuperar umcaractere de acordo com a sua posição na string.
+            //string s = "Nome da Pessoa";
+
+            //char c = s[0];
+
+            //Console.WriteLine(c);
+
+            ////Podemos verificar se uma determinada sequência de caracteres está contida em uma string.
+            //string s = "Apostila de Java";
+
+            //bool resultado1 = s.Contains("C#");
+            //bool resultado2 = s.Contains("Java");
+
+            //// False
+            //Console.WriteLine(resultado1);
+
+            //// True
+            //Console.WriteLine(resultado2);
+
+            //Podemos verificar se uma string termina com uma determinada sequência de caracteres.
+
+            //string s = "Apostila de C#";
+
+            //bool resultado1 = s.EndsWith("Java");
+            //bool resultado2 = s.EndsWith("C#");
+
+            //// False
+            //Console.WriteLine(resultado1);
+
+            //// True
+            //Console.WriteLine(resultado2);
+
+            ////Podemos verificar se uma string começa com uma determinada sequência de caracteres.
+
+            //string s = "Apostila de C#";
+
+            //bool resultado1 = s.StartsWith("C#");
+            //bool resultado2 = s.StartsWith("Apostila");
+
+            //// False
+            //Console.WriteLine(resultado1);
+
+            //// True
+            //Console.WriteLine(resultado2);
+
+            ////Podemos extrair um trecho de uma string.
+            //string s1 = " Thiago Sartor ";
+
+            //string s2 = s1.Substring(1,1);
+            //string s3 = s1.Substring(0, 6);
+
+            //// Sartor
+            //Console.WriteLine(s2);
+
+            //// Thiago
+            //Console.WriteLine(s3);
+
+            ////Podemos eliminar os espaços em branco do começo e do término de uma string.
+            //string s1 = "  Thiago Sartor    ";
+
+            //string s2 = s1.Trim();
+
+            //// " Thiago Sartor "
+            //Console.WriteLine(s2);
+
+            ////Letra Maiuscula
+            //string nome = "thiago";
+            //nome.ToUpper();
+            ////Letra Minuscula
+            //nome.ToLower();
+            ////Separador
+            //nome = "Thiago-Sartor";
+            //string[] stringArray = nome.Split('-');
+            ////stringArray[0] = Thiago
+            ////stringArray[1] = Sartor
+            //nome.Replace('-', ' ');
+
+
+            //DateTime dt = new DateTime(2010, 8, 27);
+
+            // Acrescentando 140 dias
+            //dt = dt.AddDays(140);
+
+            // Subtraindo 2 anos
+            //dt = dt.AddYears(-2);
+
+            // Acrescentando 20 segundos
+            //dt = dt.AddSeconds(20);
         }
     }
 }

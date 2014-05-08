@@ -11,6 +11,13 @@ namespace MedindoAFebreIII.MedindoAFebre
     {
         static void Main(string[] args)
         {
+            int i = 10;
+            Console.WriteLine(i++);
+            Console.WriteLine(++i);
+            Console.WriteLine(i--);
+            Console.WriteLine(--i);
+
+
             CultureInfo cw = new CultureInfo("pt-BR");
             string dia = null, mes = null, ano = null, data = null;
             DateTime date;
