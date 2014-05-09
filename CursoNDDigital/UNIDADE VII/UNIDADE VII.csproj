@@ -42,7 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ExerciciosSlide\ExerciciosSlide.cs" />
-    <Compile Include="ExerciosFixacao\BiroBiro.cs" />
+    <Compile Include="ExerciosFixacao\Biro\BiroBiroEvolution.cs" />
+    <Compile Include="ExerciosFixacao\Biro\BiroBiro2_0.cs" />
+    <Compile Include="ExerciosFixacao\Biro\BiroBiro1_5.cs" />
+    <Compile Include="ExerciosFixacao\Biro\BiroBiro1_0.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
