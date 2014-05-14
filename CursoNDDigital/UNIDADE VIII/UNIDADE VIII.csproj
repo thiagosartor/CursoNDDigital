@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ExerciosComplementares\Exercícios - Unidade VIII.docx" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ExerciciosSlide\" />
