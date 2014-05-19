@@ -13,6 +13,16 @@ namespace MendindoAFebreV
 
         public static void Main(String[] args)
         {
+            System.DateTime dt = new System.DateTime(2010, 8, 27);
+
+            // Acrescentando 140 dias 
+            dt = dt.AddDays(140);
+            // Subtraindo 2 anos
+            dt = dt.AddYears(-2);
+            // Acrescentando 20 segundos
+            dt = dt.AddSeconds(20);
+
+
             Console.WriteLine("Digite o nome do produto.");
             NomeProduto = Console.ReadLine();
             Console.WriteLine("Digite a quantidade adiquirida do produto.");
