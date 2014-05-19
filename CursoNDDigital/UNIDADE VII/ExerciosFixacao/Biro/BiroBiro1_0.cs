@@ -6,9 +6,22 @@ namespace UNIDADE_VII.ExerciosFixacao
     {
         public static void Main1()
         {
+
+
+
+            string s1 = "NDD"; 
+            string s2 = "Treinamentos";
+            System.Console.WriteLine(s1 - s2);
+
+
+
+
+
+
+
             string biro = "biro";
-            
-            Console.Write("{0}{1}{2}{3} ",biro[0].ToString(), biro[1].ToString(), biro[2].ToString(), biro[3].ToString()); //biro
+
+            Console.Write("{0}{1}{2}{3} ", biro[0].ToString(), biro[1].ToString(), biro[2].ToString(), biro[3].ToString()); //biro
             Console.Write("{0}{1}{2}{3} ", biro[0].ToString(), biro[1].ToString(), biro[3].ToString(), biro[2].ToString()); //bior
             Console.Write("{0}{1}{2}{3} ", biro[0].ToString(), biro[2].ToString(), biro[1].ToString(), biro[3].ToString()); //brio
             Console.Write("{0}{1}{2}{3} ", biro[0].ToString(), biro[2].ToString(), biro[3].ToString(), biro[1].ToString()); //broi

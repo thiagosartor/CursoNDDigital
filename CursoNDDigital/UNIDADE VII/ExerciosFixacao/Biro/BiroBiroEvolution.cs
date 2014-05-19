@@ -8,7 +8,7 @@ namespace UNIDADE_VII.ExerciosFixacao
     {
         public static List<string> Anagramas = new List<string>();
 
-        public static void Main()
+        public static void Main1()
         {
             Console.WriteLine("Digite uma palavra:");
             string palavra = Console.ReadLine();
