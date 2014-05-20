@@ -46,6 +46,8 @@
     <None Include="Unidades\Medindo a Febre - UNIDADE III.pdf" />
     <None Include="Unidades\Medindo a Febre - UNIDADE V e VI.pdf" />
     <None Include="Unidades\Medindo a Febre - UNIDADE VI parte II.pdf" />
+    <None Include="Unidades\Medindo a Febre - UNIDADE VII.pdf" />
+    <None Include="Unidades\Medindo a Febre - UNIDADE VIII.pdf" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -49,6 +49,7 @@
     <None Include="Unidades\Módulo I - Unidade IV.pdf" />
     <None Include="Unidades\Módulo I - Unidade V.pdf" />
     <None Include="Unidades\Módulo I - Unidade VI.pdf" />
+    <None Include="Unidades\Módulo I - Unidade VII.pdf" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
