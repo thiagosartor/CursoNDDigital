@@ -51,6 +51,7 @@
     <None Include="Unidades\Módulo I - Unidade VI - Apresentação.pptx" />
     <None Include="Unidades\Módulo I - Unidade VII - Apresentação.pptx" />
     <None Include="Unidades\Módulo I - Unidade VIII - Apresentação.pptx" />
+    <None Include="Unidades\Módulo I - Unidade X - Apresentação-Sartor.pptx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
