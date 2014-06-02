@@ -4,14 +4,14 @@ namespace UNIDADE_VII.ExerciosFixacao
 {
     internal class BiroBiro1_0
     {
-        public static void Main1()
+        public static void Main()
         {
 
 
 
             string s1 = "NDD"; 
             string s2 = "Treinamentos";
-            System.Console.WriteLine(s1 - s2);
+            System.Console.WriteLine(s1 + s2);
 
 
 
