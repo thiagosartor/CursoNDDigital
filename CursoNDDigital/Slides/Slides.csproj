@@ -42,7 +42,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Unidades\Módulo I - Unidade X - Apresentação.pptx" />
     <None Include="Unidades\Módulo I - Unidade I - Apresentação.docx.pptx" />
     <None Include="Unidades\Módulo I - Unidade II - Apresentação.docx.pptx" />
     <None Include="Unidades\Módulo I - Unidade III - Apresentação.docx.pptx" />
@@ -52,6 +51,8 @@
     <None Include="Unidades\Módulo I - Unidade VI - Apresentação.pptx" />
     <None Include="Unidades\Módulo I - Unidade VII - Apresentação.pptx" />
     <None Include="Unidades\Módulo I - Unidade VIII - Apresentação.pptx" />
+    <None Include="Unidades\Módulo I - Unidade X - Apresentação.pptx" />
+    <None Include="Unidades\Módulo I - Unidade XI - Apresentação.pptx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
