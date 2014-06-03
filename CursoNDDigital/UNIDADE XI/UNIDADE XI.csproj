@@ -47,10 +47,9 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="ExercicioFixacao\Exercícios - Unidade XI.docx" />
+    <None Include="ExerciciosComplemetares\Exercícios complementares - Unidade XI.docx" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ExerciciosComplemetares\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
