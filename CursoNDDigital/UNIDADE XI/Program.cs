@@ -3,7 +3,7 @@ namespace UNIDADE_XI
 {
     public static class Program
     {
-        public static void Main()
+        public static void Main_()
         {
             double[] array = new double[] { 4.4, 6.7, 8.9, 10.4, 2.3 };
             int[] array2 = new int[] { 4, 7, 9, 10, 3 };
