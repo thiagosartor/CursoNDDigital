@@ -4,15 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{247D0ACD-8F26-40D4-BE79-9B45EBC8159F}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{3A9B4DF1-3875-46F0-BB16-A633FEE1716E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Apostilas</RootNamespace>
-    <AssemblyName>Apostilas</AssemblyName>
+    <RootNamespace>UNIDADE_XII</RootNamespace>
+    <AssemblyName>UNIDADE XII</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +23,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -39,18 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <None Include="Unidades\Apostila-de-SQL-Básico.pdf" />
-    <None Include="Unidades\Módulo I - Unidade I.pdf" />
-    <None Include="Unidades\Módulo I - Unidade II.pdf" />
-    <None Include="Unidades\Módulo I - Unidade III.pdf" />
-    <None Include="Unidades\Módulo I - Unidade IV.pdf" />
-    <None Include="Unidades\Módulo I - Unidade V.pdf" />
-    <None Include="Unidades\Módulo I - Unidade VI.pdf" />
-    <None Include="Unidades\Módulo I - Unidade VII.pdf" />
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ExerciciosFixacao\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
