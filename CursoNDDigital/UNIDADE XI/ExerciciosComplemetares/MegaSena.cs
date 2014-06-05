@@ -33,7 +33,7 @@ namespace UNIDADE_XI.ExerciciosComplemetares
 
         private static void SortearNumeros()
         {
-            for (int i = 0; i < ; i++)
+            for (int i = 0; i < 1; i++)
             {
                NumerosSortedos[i] = sorteado.Next(1, 61);  
             }

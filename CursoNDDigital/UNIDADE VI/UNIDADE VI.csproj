@@ -41,6 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exercícios Complementares\Exercicio_01.cs" />
+    <Compile Include="Exercícios Complementares\Exercicio_02.cs" />
+    <Compile Include="Exercícios Complementares\Exercicio_03.cs" />
+    <Compile Include="Exercícios Complementares\Exercicio_04.cs" />
+    <Compile Include="Exercícios Complementares\Exercicio_05.cs" />
+    <Compile Include="Exercícios Complementares\Exercicio_06.cs" />
+    <Compile Include="Exercícios Complementares\Exercicio_07.cs" />
+    <Compile Include="Exercícios Complementares\Exercicio_08.cs" />
+    <Compile Include="Exercícios Complementares\Exercicio_09.cs" />
+    <Compile Include="Exercícios Complementares\Exercicio_10.cs" />
     <Compile Include="Exercícios Fixação\Execicios01_Numeros.cs" />
     <Compile Include="Exercícios Fixação\Execicios03_NascimentoExtenso.cs" />
     <Compile Include="Exercícios Fixação\Execicios05_AnosBissextos.cs" />

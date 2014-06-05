@@ -46,6 +46,11 @@
     <Compile Include="ExerciosFixacao\Biro\BiroBiro2_0.cs" />
     <Compile Include="ExerciosFixacao\Biro\BiroBiro1_5.cs" />
     <Compile Include="ExerciosFixacao\Biro\BiroBiro1_0.cs" />
+    <Compile Include="ExerciosFixacao\Exercicio_01.cs" />
+    <Compile Include="ExerciosFixacao\Exercicio_02.cs" />
+    <Compile Include="ExerciosFixacao\Exercicio_03.cs" />
+    <Compile Include="ExerciosFixacao\Exercicio_05.cs" />
+    <Compile Include="ExerciosFixacao\Exercicio_06.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

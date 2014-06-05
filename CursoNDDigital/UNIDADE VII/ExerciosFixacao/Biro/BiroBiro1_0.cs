@@ -4,7 +4,7 @@ namespace UNIDADE_VII.ExerciosFixacao
 {
     internal class BiroBiro1_0
     {
-        public static void Main()
+        public static void Main1()
         {
 
 
