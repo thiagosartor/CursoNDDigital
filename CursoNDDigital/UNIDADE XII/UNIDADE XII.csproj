@@ -61,10 +61,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ExerciciosFixacao\Exercícios - Unidade XII.docx" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ExerciciosFixacao\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Banco\CursoDB.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
