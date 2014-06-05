@@ -41,7 +41,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="ExercicioFixacao\SequenciaAleatoria.cs" />
+    <Compile Include="ExercicioFixacao\SequenciaCrescente.cs" />
+    <Compile Include="ExercicioFixacao\SequenciaDecrescente.cs" />
+    <Compile Include="ExercicioFixacao\SequenciaImpar.cs" />
+    <Compile Include="ExercicioFixacao\SequenciaQualquer.cs" />
+    <Compile Include="ExercicioFixacao\TabelaAleatoria.cs" />
+    <Compile Include="ExercicioFixacao\TabelaQualquer.cs" />
+    <Compile Include="ExercicioFixacao\Tabuada.cs" />
+    <Compile Include="ExerciciosComplementares\Exercicio_01.cs" />
+    <Compile Include="ExerciciosComplementares\Exercicio_02.cs" />
+    <Compile Include="ExerciciosComplementares\Exercicio_03.cs" />
+    <Compile Include="ExerciciosComplementares\Exercicio_04.cs" />
+    <Compile Include="ExerciciosComplementares\Exercicio_05.cs" />
+    <Compile Include="ExerciciosComplementares\Exercicio_06.cs" />
+    <Compile Include="ExerciciosComplementares\Exercicio_07.cs" />
+    <Compile Include="ExerciciosComplementares\Exercício_08.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

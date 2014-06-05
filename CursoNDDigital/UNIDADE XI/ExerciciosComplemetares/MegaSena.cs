@@ -14,7 +14,7 @@ namespace UNIDADE_XI.ExerciciosComplemetares
         public static Random sorteado = new Random();
         public static int[] NumerosSortedos = new int[6];
         public static int[] NumerosEscolhidos = new int[6];
-        public static void Main()
+        public static void Maini()
         {
             SortearNumeros();
             JogarNaMega();
