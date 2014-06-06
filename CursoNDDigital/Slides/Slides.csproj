@@ -42,17 +42,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Unidades\Módulo I - Unidade I - Apresentação.docx.pptx" />
-    <None Include="Unidades\Módulo I - Unidade II - Apresentação.docx.pptx" />
-    <None Include="Unidades\Módulo I - Unidade III - Apresentação.docx.pptx" />
-    <None Include="Unidades\Módulo I - Unidade IV - Apresentação.docx.pptx" />
-    <None Include="Unidades\Módulo I - Unidade IX - Apresentação.pptx" />
-    <None Include="Unidades\Módulo I - Unidade V - Apresentação.pptx" />
-    <None Include="Unidades\Módulo I - Unidade VI - Apresentação.pptx" />
-    <None Include="Unidades\Módulo I - Unidade VII - Apresentação.pptx" />
-    <None Include="Unidades\Módulo I - Unidade VIII - Apresentação.pptx" />
-    <None Include="Unidades\Módulo I - Unidade X - Apresentação.pptx" />
-    <None Include="Unidades\Módulo I - Unidade XI - Apresentação.pptx" />
+    <None Include="Unidades\Unidade I - Manual Visualg - Apresentação.pptx" />
+    <None Include="Unidades\Unidade II - Linguagem Portugol - Apresentação.pptx" />
+    <None Include="Unidades\Unidade III - Controle de Fluxo - Apresentação.pptx" />
+    <None Include="Unidades\Unidade IV - Vetore e Matrizes  - Apresentação.pptx" />
+    <None Include="Unidades\Unidade IX - Arrays - Apresentação.pptx" />
+    <None Include="Unidades\Unidade V - Visual Studio - Apresentação.pptx" />
+    <None Include="Unidades\Unidade VI - Linguagem C# -Apresentação.pptx" />
+    <None Include="Unidades\Unidade VII - Operadores - Apresentação.pptx" />
+    <None Include="Unidades\Unidade VIII - Controle de fluxo - Apresentação.pptx" />
+    <None Include="Unidades\Unidade X - Funções ou métodos - Apresentação.pptx" />
+    <None Include="Unidades\Unidade XI - Problemas - Apresentação.pptx" />
+    <None Include="Unidades\Unidade XII - SGBD - Apresentação.pptx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
