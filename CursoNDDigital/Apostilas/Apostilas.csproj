@@ -44,13 +44,13 @@
   <ItemGroup />
   <ItemGroup>
     <None Include="Unidades\Apostila-de-SQL-Básico.pdf" />
-    <None Include="Unidades\Módulo I - Unidade I.pdf" />
-    <None Include="Unidades\Módulo I - Unidade II.pdf" />
-    <None Include="Unidades\Módulo I - Unidade III.pdf" />
-    <None Include="Unidades\Módulo I - Unidade IV.pdf" />
-    <None Include="Unidades\Módulo I - Unidade V.pdf" />
-    <None Include="Unidades\Módulo I - Unidade VI.pdf" />
-    <None Include="Unidades\Módulo I - Unidade VII.pdf" />
+    <None Include="Unidades\Unidade I - Manual VisuAlg.pdf" />
+    <None Include="Unidades\Unidade II - Linguagem Portugol.pdf" />
+    <None Include="Unidades\Unidade III - Comandos Portugol.pdf" />
+    <None Include="Unidades\Unidade IV - Vetores e Matrizes.pdf" />
+    <None Include="Unidades\Unidade V - Visual Studio.pdf" />
+    <None Include="Unidades\Unidade VI - Linguagem C#.pdf" />
+    <None Include="Unidades\Unidade VII - Operadores.pdf" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
