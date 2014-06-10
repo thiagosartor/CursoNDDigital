@@ -1,0 +1,16 @@
+﻿SET IDENTITY_INSERT [dbo].[Aluno] ON
+INSERT INTO [dbo].[Aluno] ([Id], [Nome], [Email], [Telefone], [Altura], [Aprovado]) VALUES (1, N'Giorgi', N'Giorgi@gmail.com', N'888888', CAST(1.77 AS Decimal(3, 2)), 0)
+INSERT INTO [dbo].[Aluno] ([Id], [Nome], [Email], [Telefone], [Altura], [Aprovado]) VALUES (2, N'Lucas', N'Giorgi@gmail.com', N'888888', CAST(1.77 AS Decimal(3, 2)), 0)
+INSERT INTO [dbo].[Aluno] ([Id], [Nome], [Email], [Telefone], [Altura], [Aprovado]) VALUES (3, N'Guilherme', N'Giorgi@gmail.com', N'888888', CAST(1.77 AS Decimal(3, 2)), 0)
+INSERT INTO [dbo].[Aluno] ([Id], [Nome], [Email], [Telefone], [Altura], [Aprovado]) VALUES (4, N'Camila', N'Giorgi@gmail.com', N'888888', CAST(1.77 AS Decimal(3, 2)), 0)
+INSERT INTO [dbo].[Aluno] ([Id], [Nome], [Email], [Telefone], [Altura], [Aprovado]) VALUES (5, N'Arnaldo', N'Giorgi@gmail.com', N'888888', CAST(1.77 AS Decimal(3, 2)), 0)
+INSERT INTO [dbo].[Aluno] ([Id], [Nome], [Email], [Telefone], [Altura], [Aprovado]) VALUES (6, N'Greicy', N'Giorgi@gmail.com', N'888888', CAST(1.77 AS Decimal(3, 2)), 0)
+INSERT INTO [dbo].[Aluno] ([Id], [Nome], [Email], [Telefone], [Altura], [Aprovado]) VALUES (7, N'Mateus', N'Giorgi@gmail.com', N'888888', CAST(1.77 AS Decimal(3, 2)), 0)
+INSERT INTO [dbo].[Aluno] ([Id], [Nome], [Email], [Telefone], [Altura], [Aprovado]) VALUES (8, N'Rafael', N'Giorgi@gmail.com', N'888888', CAST(1.77 AS Decimal(3, 2)), 0)
+INSERT INTO [dbo].[Aluno] ([Id], [Nome], [Email], [Telefone], [Altura], [Aprovado]) VALUES (9, N'Felipe', N'Giorgi@gmail.com', N'888888', CAST(1.77 AS Decimal(3, 2)), 0)
+INSERT INTO [dbo].[Aluno] ([Id], [Nome], [Email], [Telefone], [Altura], [Aprovado]) VALUES (10, N'Antonio', N'Giorgi@gmail.com', N'888888', CAST(1.77 AS Decimal(3, 2)), 0)
+INSERT INTO [dbo].[Aluno] ([Id], [Nome], [Email], [Telefone], [Altura], [Aprovado]) VALUES (11, N'Aprigio', N'Giorgi@gmail.com', N'888888', CAST(1.77 AS Decimal(3, 2)), 0)
+INSERT INTO [dbo].[Aluno] ([Id], [Nome], [Email], [Telefone], [Altura], [Aprovado]) VALUES (12, N'Lucas S.', N'Giorgi@gmail.com', N'888888', CAST(1.77 AS Decimal(3, 2)), 0)
+INSERT INTO [dbo].[Aluno] ([Id], [Nome], [Email], [Telefone], [Altura], [Aprovado]) VALUES (13, N'Raul', N'Giorgi@gmail.com', N'888888', CAST(1.77 AS Decimal(3, 2)), 0)
+INSERT INTO [dbo].[Aluno] ([Id], [Nome], [Email], [Telefone], [Altura], [Aprovado]) VALUES (14, N'Luis', N'Giorgi@gmail.com', N'888888', CAST(1.77 AS Decimal(3, 2)), 0)
+SET IDENTITY_INSERT [dbo].[Aluno] OFF

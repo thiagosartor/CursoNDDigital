@@ -1,0 +1,17 @@
+﻿--SELECT Nome FROM Aluno WHERE Altura = 1.8;
+--SELECT * FROM Aluno WHERE Altura != 1.8;
+--SELECT * FROM Aluno WHERE Altura <= 1.8;
+--SELECT * FROM Aluno WHERE Altura < 1.8;
+--SELECT * FROM Aluno WHERE Altura >= 1.8;
+--SELECT * FROM Aluno WHERE Altura > 1.8;
+--SELECT * FROM Aluno WHERE Nome IS NULL
+--SELECT * FROM Aluno WHERE Nome IS NOT NULL
+--SELECT * FROM Aluno WHERE Altura BETWEEN 1.2 AND 1.4
+--SELECT * FROM Aluno WHERE Altura  NOT BETWEEN  1.2 AND 1.4
+--SELECT * FROM Aluno WHERE Nome LIKE 'Rafael%'
+--SELECT * FROM Aluno WHERE Nome NOT LIKE ’Rafael%’;
+--SELECT * FROM Aluno WHERE Altura IN (1.77)
+--SELECT * FROM Aluno WHERE Altura NOT IN (1.5 , 1.6 , 1.7 , 1.8) ;
+--SELECT * FROM Aluno WHERE NOT Altura = 1.80;
+--SELECT * FROM Aluno WHERE Altura < 1.8 AND Nome LIKE ’Nome ’;
+--SELECT * FROM Aluno WHERE Altura < 1.8 OR Nome LIKE ‘Nome%’;

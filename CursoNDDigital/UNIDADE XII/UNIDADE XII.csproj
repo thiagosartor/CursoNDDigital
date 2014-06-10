@@ -72,6 +72,12 @@
       <DependentUpon>CursoDB.mdf</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="ExerciciosFixacao\Exercicio1.sql" />
+    <Content Include="ExerciciosFixacao\Exercicio2.sql" />
+    <Content Include="ExerciciosFixacao\Exercicio3.sql" />
+    <Content Include="ExerciciosFixacao\Exercicio4.sql" />
+    <Content Include="ExerciciosFixacao\Exercicio5.sql" />
+    <Content Include="ExerciciosFixacao\Exercicio6.sql" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">

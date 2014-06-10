@@ -1,0 +1,1 @@
+﻿SELECT * FROM Aluno WHERE Aprovado = 'TRUE' ORDER BY Email, ALTURA DESC, NOME

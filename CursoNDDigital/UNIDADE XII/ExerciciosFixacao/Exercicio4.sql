@@ -1,0 +1,4 @@
+﻿SELECT * FROM Aluno ORDER BY Altura ASC;
+SELECT * FROM Aluno ORDER BY Altura ASC;
+SELECT * FROM Aluno ORDER BY Aprovado ASC;
+SELECT * FROM Aluno ORDER BY Aprovado ASC;
