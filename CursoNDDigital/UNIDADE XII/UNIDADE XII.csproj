@@ -63,15 +63,8 @@
     <None Include="App.config" />
     <None Include="ExerciciosFixacao\Exercícios - Unidade XII.docx" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Content Include="Banco\CursoDB.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Banco\CursoDB_log.ldf">
-      <DependentUpon>CursoDB.mdf</DependentUpon>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Folder Include="Banco\" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
