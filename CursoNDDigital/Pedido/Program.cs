@@ -30,10 +30,12 @@ namespace Pedido
             string nome = Console.ReadLine();
             string unidade = Console.ReadLine();
             double valor = Convert.ToDouble(Console.ReadLine());
+            string nvalor = valor.ToString().Replace(',','.');
 
+         
             //Listando todos o intens na tabela produto
             string sql = String.Format(@"INSERT INTO Produto (Nome, Unidade, Valor) VALUES('{0}','{1}',{2:.##})", nome,
-                unidade, valor);
+                unidade, nvalor);
             SqlCommand insert = new SqlCommand(sql, sqlConection);
 
             try
@@ -98,7 +100,7 @@ namespace Pedido
         {
             //Define uma string de conexão com o banco de dados CursoNDD.mdf
             string connectionString =
-                @"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\thiago.sartor\Source\Repos\CursoNDDigital\CursoNDDigital\UNIDADE XII\Banco\CursoDB.mdf;Integrated Security=True";
+                @"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Thiago\Source\Repos\CursoNDDigital\CursoNDDigital\UNIDADE XII\Banco\CursoDB.mdf;Integrated Security=True";
 
             //Cria um novo objeto SqlConnection object usando a string de conexão
             SqlConnection sqlConn = new SqlConnection(connectionString);
