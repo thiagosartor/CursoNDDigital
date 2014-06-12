@@ -15,16 +15,90 @@ namespace Pedido
             //INICIA CONEXÃO
             var sqlConection = ConectandoComBanco();
 
+            R_ListaTodosPedidos(sqlConection);
+
             //REALIZA COMANDOS
-            C_AdicionaProduto(sqlConection); //CREATE DATA
-            R_ListaTodosProdutos(sqlConection); //READ DATA
-            U_AtualizaProduto(sqlConection); // UPDATE DATA
-            D_ExcluiProduto(sqlConection); //DELETE DATA
+            //C_AdicionaProduto(sqlConection); //CREATE DATA
+            //R_ListaTodosProdutos(sqlConection); //READ DATA
+            //U_AtualizaProduto(sqlConection); // UPDATE DATA
+            //D_ExcluiProduto(sqlConection); //DELETE DATA
 
             //FECHA CONEXÃO
             FechaConexao(sqlConection);
         }
 
+        private static void C_AdicionaPedido(SqlConnection sqlConection)
+        {
+            var dataPedido = DateTime.Now;
+            Console.WriteLine("Digite a quantidade de produtos:");
+            var quantidade = int.Parse(Console.ReadLine());
+            int produtoId = 8;// fazer um lógica de busca
+            int clienteId = 1;// fazer um lógica de busca
+
+            string sql = String.Format(@"INSERT INTO Pedido (DataPedido, Quantidade,"+
+       "Produto_Id, Cliente_Id) VALUES('{0}', {1}, {2}, {3})", dataPedido, quantidade, produtoId, clienteId);
+           
+            SqlCommand insert = new SqlCommand(sql, sqlConection);
+
+            try
+            {
+                int i = insert.ExecuteNonQuery();
+                if (i > 0)
+                {
+                    Console.WriteLine("Cadastro inserido com sucesso!");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Erro: " + ex.ToString()); // Irá mostrar para nós a exceção
+            }
+
+           
+        }
+
+        private static void R_ListaTodosPedidos(SqlConnection sqlConection)
+        {
+            //Listando todos o intens na tabela pedidos
+            SqlCommand select = new SqlCommand(@"SELECT P.Nome, C.PrimeiroNome, PD.DataPedido, PD.Quantidade "+ 
+                                               "FROM Pedido AS PD "+
+                                               "INNER JOIN Cliente AS C ON PD.Cliente_Id = C.Id "+
+                                               "INNER JOIN Produto AS P ON PD.Produto_Id = P.Id", sqlConection);
+            SqlDataReader dataReader = select.ExecuteReader();
+
+            while (dataReader.Read())
+            {
+                Console.WriteLine("Data de Hoje:" + dataReader["DataPedido"]);
+                Console.WriteLine("Quantidade:" + dataReader["Quantidade"]);
+                Console.WriteLine("Produto:"+ dataReader["Nome"]);
+                Console.WriteLine("Cliente:" + dataReader["PrimeiroNome"]);
+            }
+        }
+
+        private static void U_AtualizaPedidos(SqlConnection sqlConection)
+        {
+            //Executa a consulta e não retorna nenhuma coleção. Usado para instruções DELETE e UPDATE onde retorna o número de registros afetados.
+            SqlCommand update = new SqlCommand("Update Pedido set DataPedido = '01-01-01' WHERE Id = 2", sqlConection);
+
+            try
+            {
+                int j = update.ExecuteNonQuery();
+                if (j > 0)
+                {
+                    Console.WriteLine("Cadastro atualizado com sucesso!");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Erro: " + ex.ToString()); // Irá mostrar para nós a exceção
+            }
+        }
+
+        private static void D_ExcluiPedidos(SqlConnection sqlConection)
+        {
+            //Executa a consulta e não retorna nenhuma coleção. Usado para instruções DELETE e UPDATE onde retorna o número de registros afetados.
+            SqlCommand delete = new SqlCommand("DELETE FROM Pedido WHERE Id=1", sqlConection);
+            delete.ExecuteNonQuery();
+        }
         private static void C_AdicionaProduto(SqlConnection sqlConection)
         {
             string nome = Console.ReadLine();
@@ -33,7 +107,7 @@ namespace Pedido
             string nvalor = valor.ToString().Replace(',','.');
 
          
-            //Listando todos o intens na tabela produto
+            //Inserindo intens na tabela produto
             string sql = String.Format(@"INSERT INTO Produto (Nome, Unidade, Valor) VALUES('{0}','{1}',{2:.##})", nome,
                 unidade, nvalor);
             SqlCommand insert = new SqlCommand(sql, sqlConection);
@@ -55,8 +129,8 @@ namespace Pedido
         private static void R_ListaTodosProdutos(SqlConnection sqlConection)
         {
             //Listando todos o intens na tabela produto
-            SqlCommand select = new SqlCommand("SELECT * FROM Produto", sqlConection);
-            SqlDataReader dataReader = @select.ExecuteReader();
+            SqlCommand select = new SqlCommand(@"SELECT * FROM Produto", sqlConection);
+            SqlDataReader dataReader = select.ExecuteReader();
 
             while (dataReader.Read())
             {
