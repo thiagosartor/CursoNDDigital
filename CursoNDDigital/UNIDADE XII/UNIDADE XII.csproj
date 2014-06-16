@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ExerciciosComplementares\Exercícios Complementares - Unidade XII.docx" />
     <None Include="ExerciciosFixacao\Exercícios - Unidade XII.docx" />
   </ItemGroup>
   <ItemGroup />
