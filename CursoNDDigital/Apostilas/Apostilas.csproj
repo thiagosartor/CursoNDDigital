@@ -44,6 +44,7 @@
   <ItemGroup />
   <ItemGroup>
     <None Include="Unidades\Apostila-de-SQL-Básico.pdf" />
+    <None Include="Unidades\Tratamento de Exceções.pdf" />
     <None Include="Unidades\Unidade I - Manual VisuAlg.pdf" />
     <None Include="Unidades\Unidade II - Linguagem Portugol.pdf" />
     <None Include="Unidades\Unidade III - Comandos Portugol.pdf" />
