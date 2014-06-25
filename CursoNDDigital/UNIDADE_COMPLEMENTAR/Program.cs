@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace UNIDADE_COMPLEMENTAR
 {
@@ -40,8 +41,21 @@ namespace UNIDADE_COMPLEMENTAR
             _List.Add(56);
             _List.Add(6);
             _List.Add(2);
+
+            var d = _List.Find(item => item < 2); // Lista o objeto com valor 12 e armazena em item
+            var ds = _List.FindAll(item => item > 10).ToList(); // Acha todos os valores maiores que 10 e armazena em items
+           
+            foreach (var i in ds)
+            {
+               Console.WriteLine(i);
+            }
             
-            foreach (var item in _List)
+            IEnumerable<int> sortDescendingQuery =
+              from i in _List
+              orderby i descending
+              select i;
+
+            foreach (var item in sortDescendingQuery)
             {
                 Console.WriteLine(item);
             }
@@ -53,6 +67,21 @@ namespace UNIDADE_COMPLEMENTAR
             _Dictionary.Add(5, "33");
             _Dictionary.Add(6, "333");
             _Dictionary.Add(7, "4");
+
+
+            Dictionary<string, char> _dictionary = new Dictionary<string, char>();
+            List<char> Grupos = new List<char>() {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H' };
+            List<string> Times = new List<string>() {"Alemanha", "Argentina", "Argelia", "Brasil" };
+            Random sort = new Random();
+            
+            for (int i = 0; i < 4; i++)
+            {
+                int time = sort.Next(0, Times.Count);
+                              
+                _dictionary.Add(Times[time], Grupos[0]);
+                Times.Remove(Times[time]);               
+            }
+                 
         }
     }
 }
