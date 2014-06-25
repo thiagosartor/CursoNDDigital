@@ -8,57 +8,68 @@ namespace UNIDADE_COMPLEMENTAR
     internal class Program
     {
         public static ArrayList _ArrayList = new ArrayList(1);
+        public static List<string> _ListString = new List<string>();
         public static List<int> _List = new List<int>();
         public static List<int> _ListInt = new List<int>() { 10, 23, 3, 17, 78, 19 };
         public static Dictionary<int, string> _Dictionary = new Dictionary<int, string>();
 
         private static void Main(string[] args)
         {
-            //ArrayList
+            //ARRAY LIST
 
-            //ADICIONAR
-            _ArrayList.Add(1);
-            _ArrayList.Add("Thiago");
-            _ArrayList.Add(1.78);
-            _ArrayList.Add('M');
-            //REMOVER
-            _ArrayList.Remove(1); // REMOVE POR OBJETO
-            _ArrayList.Insert(3, 1); // INSERE NA POSIÇÃO
-            int idex = _ArrayList.IndexOf(1); // MOSTRA A POSIÇÃO
+            _ArrayList.Add(1); //ADICIONA UM INTEIRO
+            _ArrayList.Add("Thiago"); //ADICIONA UM INTEIRO
+            _ArrayList.Add(1.78); //ADICIONA UM DOUBLE
+            _ArrayList.Add('M'); //ADICIONA UM CHAR
+            _ArrayList.Add(true); //ADICIONA UM BOOLEAN
+            _ArrayList.Insert(3, 1); //INSERE NA POSIÇÃO
+
+            _ArrayList.Remove(1); //REMOVE POR OBJETO
+            _ArrayList.Remove("Thiago"); //REMOVE POR OBJETO
+            _ArrayList.Remove(1.78); //REMOVE POR OBJETO
+            _ArrayList.Remove('M'); //REMOVE POR OBJETO
+            _ArrayList.Remove(true); //REMOVE POR OBJETO
+            int idex = _ArrayList.IndexOf(1); //MOSTRA A POSIÇÃO
             int lastIdex = _ArrayList.LastIndexOf(1); //MOSTRA A ULTIMA POSIÇÃO
+            _ArrayList.Sort(); //ORDERNA CRESCENTE
+            _ArrayList.Reverse(); //ORDENA DECRESCENTE
+            _ArrayList.RemoveAt(0); // REMOVE POR POSIÇÃO
+            _ArrayList.Clear(); //LIMPA A LISTA
 
-            _ArrayList.RemoveAt(3); // REMOVE POR POSIÇÃO
-
-            _List.Sort(); //CRESCENTE
-            _ArrayList.Reverse(); //DECRESCENTE
-            _ArrayList.Clear(); // LIMPA A LISTA
+            //ARRAY LIST
 
             //LIST
 
-            // ADICIONAR
-            _List.Add(12);
-            _List.Add(13);
-            _List.Add(56);
-            _List.Add(6);
-            _List.Add(2);
+            //ALGUNS COMANDOS SÃO IGUAIS OS DO ARRAYLIST
 
-            var d = _List.Find(item => item < 2); // Lista o objeto com valor 12 e armazena em item
-            var ds = _List.FindAll(item => item > 10).ToList(); // Acha todos os valores maiores que 10 e armazena em items
-           
-            foreach (var i in ds)
-            {
-               Console.WriteLine(i);
-            }
-            
-            IEnumerable<int> sortDescendingQuery =
-              from i in _List
-              orderby i descending
-              select i;
+            int max = _ListInt.Max(); //DEVOLVE O MAIOR VALOR
+            int min = _ListInt.Min(); //DEVOLVE O MENOR VALOR
+            int soma = _ListInt.Sum();//DEVOLVE A SOMA DOS VALORES
+            double media = _ListInt.Average(); //DEVOLVE A MÉDIA DOS VALORES
 
-            foreach (var item in sortDescendingQuery)
+            var numeroIgual2 = _List.Find(item => item == 2); //LISTA O OBJETO COM VALOR 12 E ARMAZENA EM ITEM
+            var todosMaiorQue10 = _List.FindAll(item => item > 10).ToList(); //LISTA TODOS OS VALORES MAIORES QUE 10 E ARMAZENA EM ITEMS
+            var nomesLetraT = _ListString.Where(x => x.Contains("T")).ToList(); //LISTA TODOS OS NOMES QUE CONTEM A LETRA T
+
+            foreach (var item in todosMaiorQue10) //LISTA O NUMEROS
             {
                 Console.WriteLine(item);
             }
+
+            //LIST
+
+            //IENUMERABLE
+
+            IEnumerable<int> orderDesc =
+              from i in _ListInt
+              orderby i descending
+              select i;
+            //DESDENDIG ORDENA DECRESCENTE
+            //O ORDERBY ORDENA CRESCENTE POR DEFAULT (PADRÃO)
+
+            //IENUMERABLE
+
+            //DICTIONARY
 
             _Dictionary.Add(1, "2");
             _Dictionary.Add(2, "22");
@@ -68,20 +79,50 @@ namespace UNIDADE_COMPLEMENTAR
             _Dictionary.Add(6, "333");
             _Dictionary.Add(7, "4");
 
+            //DICTIONARY ( KEY, VALUE );
+            //A KEY É COMO SE FOSSE O IDENTIFICADOR QUE ESTA LIGADO AO VALUE QUE É O VALOR
+            //A KEY 1 REPRESENTA O VALOR "2" NO EXEMPLO ACIMA
 
-            Dictionary<string, char> _dictionary = new Dictionary<string, char>();
-            List<char> Grupos = new List<char>() {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H' };
-            List<string> Times = new List<string>() {"Alemanha", "Argentina", "Argelia", "Brasil" };
-            Random sort = new Random();
-            
-            for (int i = 0; i < 4; i++)
+            //DICTIONARY
+
+            //5)
+
+            var copaDoMundo = new Dictionary<string, char>();
+            var grupos = new List<char> { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H' };
+            var times = new List<string>
             {
-                int time = sort.Next(0, Times.Count);
-                              
-                _dictionary.Add(Times[time], Grupos[0]);
-                Times.Remove(Times[time]);               
+                "Alemanha", "Argélia", "Argentina", "Austrália", "Bélgica",
+                "Bósnia H.","Brasil", "Camarões","Colombia", "Chile", "Coreia do S.",
+                "Costa do M.", "Costa R.", "Croácia", "Equador", "Espanha",
+                "Estados U.", "França", "Gana", "Grécia", "Holanda", "Honduras",
+                "Inglaterra", "Irã", "Itália", "Japão", "México", "Nigéria",
+                "Portugal", "Rússia", "Suíça", "Uruguai"
+            };
+            var sort = new Random();
+
+            for (int j = 0; j < 8; j++)
+            {
+                for (int i = 0; i < 4; i++)
+                {
+                    int time = sort.Next(0, times.Count);
+
+                    copaDoMundo.Add(times[time], grupos[j]);
+                    times.Remove(times[time]);
+                }
             }
-                 
+            int count = 0;
+            foreach (var t in copaDoMundo)
+            {
+                if (count % 4 == 0)
+                {
+                    Console.WriteLine("");
+                    Console.WriteLine("--------------");
+                    Console.WriteLine("    GRUPO " + t.Value);
+                    Console.WriteLine("--------------");
+                }
+                Console.WriteLine("    "+t.Key);
+                count++;
+            }
         }
     }
 }
