@@ -1,0 +1,31 @@
+﻿// 1)
+INSERT INTO TBMatricula(Aluno_Id,Curso_Id) VALUES (4,5)
+// 2)
+SELECT M.Id, A.Nome, C.Nome FROM TBAluno AS A 
+INNER JOIN TBMatricula AS M ON A.Id = M.Aluno_Id 
+INNER JOIN TBCurso AS C ON M.Curso_Id = C.Id
+ORDER BY C.Nome
+// 3)
+SELECT Email FROM TBAluno WHERE DataNascimento <= '1996-06-24'
+SELECT Email FROM TBAluno WHERE DataNascimento BETWEEN '1954-06-24' 
+AND '1996-06-24' 
+SELECT Email, (DATEDIFF(YEAR,DataNascimento,GETDATE())) FROM TBAluno 
+WHERE (DATEDIFF(YEAR,DataNascimento,GETDATE()))  > 17
+// 4
+SELECT COUNT(*) FROM TBAluno 
+// 5
+SELECT COUNT(*) AS QuantAluno, C.Nome  FROM TBAluno  AS A  
+INNER JOIN TBMatricula AS M on M.Aluno_Id = A.Id
+INNER JOIN TBCurso AS C on C.Id = M.Curso_Id GROUP BY C.Nome
+// 6
+SELECT Nome FROM TBAluno WHERE DataNascimento < '1996-06-24'
+// 7
+SELECT Nome FROM TBAluno WHERE Sexo = 'F'
+// 8
+SELECT A.Nome FROM TBAluno AS A 
+INNER JOIN TBMatricula AS M ON A.Id = M.Aluno_Id 
+INNER JOIN TBCurso AS C ON M.Curso_Id = C.Id
+WHERE C.Nome = 'Medicina' AND A.SEXO = 'F'
+// 9
+SELECT Nome FROM TBCurso ORDER BY Nome
+// 10
