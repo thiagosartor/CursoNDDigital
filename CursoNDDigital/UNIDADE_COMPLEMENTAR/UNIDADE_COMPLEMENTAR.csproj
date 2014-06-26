@@ -41,6 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Colecoes\Exercicio_01.cs" />
+    <Compile Include="Colecoes\Exercicio_04.cs" />
+    <Compile Include="Colecoes\Exercicio_03.cs" />
+    <Compile Include="Colecoes\Exercicio_02.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -48,7 +52,9 @@
     <None Include="App.config" />
     <None Include="Colecoes\Exercícios - Coleções.docx" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Web\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

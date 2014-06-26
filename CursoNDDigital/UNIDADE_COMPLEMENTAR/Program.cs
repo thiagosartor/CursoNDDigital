@@ -85,7 +85,7 @@ namespace UNIDADE_COMPLEMENTAR
 
             //DICTIONARY
 
-            //5)
+            //5)1)	Crie um algoritmo com uma coleção com todos dos times da copa. Sabe-se que são 32 times que serão sorteados e divididos em 8 grupos, do A ao H. Depois de sorteados e alocados o algoritmo deve imprimir na tela todos os grupos.
 
             var copaDoMundo = new Dictionary<string, char>();
             var grupos = new List<char> { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H' };
